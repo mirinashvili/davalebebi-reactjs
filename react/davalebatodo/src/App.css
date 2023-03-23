@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: auto auto auto auto;
+    padding: 50px;
+    background-color: cornflowerblue;
+}
+
+.card {
+    text-align: center;
+    color: rgb(250, 245, 247);
+    background-color:rgb(73, 129, 234);
+    padding-block: 30px;
+    border-radius: 10px;
+    
+    
+}
+
+.card p {
+    margin: 10px 0px;
+}
+
+button {
+    padding: 8px 18px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    color: green;
+    cursor: pointer;
+    margin: 10px;
+    
+    
+}
